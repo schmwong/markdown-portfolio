@@ -1,1 +1,1 @@
-Replace this with an image, like your photo. Ensure you include some alt-text.
+![Merlion Park](https://c.tenor.com/mxwfrYxOtuYAAAAC/merlion-singapore.gif)
