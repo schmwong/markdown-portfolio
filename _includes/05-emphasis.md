@@ -1,4 +1,5 @@
-_A **short** into in Chinese Python:_
+A **short** intro in Chinese Python, <br/>_based on Python 2_:
+
 
 ``` java
 概念 schmwong(github.使用者):
