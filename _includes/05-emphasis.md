@@ -1,6 +1,7 @@
-_A **short** into in Chinese Python:_
+A **short** intro in Chinese Python, <br/>_based on Python 3_:
 
-``` java
+
+``` python
 概念 schmwong(github.使用者):
   名: "Paul"
   國籍: "新加坡 🇸🇬"
@@ -12,19 +13,19 @@ _A **short** into in Chinese Python:_
   }
   人格: "INTP"
   
-  定義 __初始__(自己):
-    super(子類, 自己).__初始__()
-    自己.年齡 = datetime.now().year - 1582 #♑
-    github.帳號.類別 = "個人"
+  定義 __初始__(俺, 出生年=1582):
+    超級(schmwong, 俺).__初始__(使用者資訊)
+    俺.年齡 = datetime.now().year - 整數(出生年)  # :capricorn:
+    帳號.類別 = "個人"
    
-  定義 歡迎(函數):
+  定義 歡迎_裝飾器(函數):
     定義 包裝器():
       函數()
-      寫 "歡迎參觀我的個人頁面"
+      印("歡迎參觀我的個人頁面")
     傳回 包裝器
   
-  @歡迎
+  @歡迎_裝飾器
   定義 問候():
-    寫 "你好, 我是 %s 👋" % (名)
-    寫 "我來自 %s" % (國籍)
+    印("你好, 我是 ", 名, " 👋")
+    印("我來自 ", 國籍)
 ```
